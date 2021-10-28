@@ -1,0 +1,274 @@
+
+h1{
+    color: brown;
+}
+.mob{
+    display: none;
+}
+span{
+    color: blanchedalmond;
+}
+html{
+    font-family:sans-serif;
+    width: 1300px;
+    height: 3000px;
+    align-content: center;
+
+}
+body{
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    font-weight: lighter;
+    height: 64px;
+}
+#eg{
+    margin-left: 450px;
+}
+img{
+    margin-left: 24px;
+}
+.og{
+    margin-left: 16px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.subs{
+    margin-left: 50px;
+    font-size: 20px;
+    width: 400px;
+    text-align: left !important ;
+    color:brown;
+}
+button{
+    padding: 16px 150px;
+    background-color: gray;
+}
+#mob{
+    font-size: 40px;
+}
+#first{
+    display:inline-flex;
+    flex-direction: column;
+    margin-top: 32px;
+    flex-wrap: wrap;
+
+
+}
+#first p{
+   width: 580px;
+   margin-left: 32px;
+
+}
+#first h2{
+    font-size: 30px;
+    margin-left: 32px;
+}
+#sue{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section2{
+    display: flex;
+}
+.fb{
+    display: flex;
+
+    border: 0.5px solid lightgray;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+#cf{
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#forth{
+    background-color: lightgray;
+}
+
+#all{
+    border: 0.5px solid lightgray ;
+    height:1325px;
+}
+#atc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin-left: 72px;
+}
+#stl{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.cont {
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: white;
+    height: 200px;
+    width: 320px;
+    margin-left: 23px;
+    padding: 10px 10px;
+    margin-bottom: 32px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+   
+.card img{
+    height: 150px;
+    width: 340px;
+    
+}
+#all2{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    padding-bottom: 32px;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 20px;
+    font-size: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 900px;
+    margin-bottom: 32px;
+
+}
+
+#all3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.cc{
+    display: flex;
+
+}
+.cc img{
+    margin: 16px 16px;
+}
+#lhp{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.t{
+    margin-top: 16px;
+}
+.o{
+    background-color: lightgray;
+}
+#clc{
+    color: lightgray;
+}
+footer{
+    display: flex;
+}
+.ghj{
+    margin-left: 900px;
+}
+@media only screen and (max-width: 480px) 
+{
+    body{
+        width: 450px;
+        border: none;
+    }
+    .desk{
+        display: none;
+    }
+    .mob{
+        display: flex;
+        justify-content: space-around;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        margin: 0px 0px;
+    }
+    .section1 img{
+        width: 450px;
+        margin-left: 0px;
+    }
+    .subs{
+        background-color: lightgray;
+        padding: 30px 32px;
+        margin: 0px 0px;
+    }
+    #first{
+        display: none;
+    }
+    .fb{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #sue img{
+        height: 40%;
+        width: 90%;
+    }
+    #sue{
+        border: none;
+        line-height: 16px;
+    }
+    #all2m{
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+    }
+    #all2m h2{
+        background-color: lightgray;
+        padding: 30px 50px;
+    }
+    .sln{
+        background-color: white !important;
+        font-size: 40px;
+        margin-top: 32px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    footer{
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    video{
+        margin: 0px 0px !important;
+        width: 100%;
+        height: auto;
+    }
+}
